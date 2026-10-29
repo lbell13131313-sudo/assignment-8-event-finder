@@ -4,7 +4,7 @@
 }
 
 .sidebar {
-  width: 17.5rem;
+  width: 20.5%;
   flex-shrink: 0;
 }
 
@@ -16,6 +16,10 @@
 }
 
 /* above are the css I have edited in part 5 */
+
+h2 {
+  font-size: 1.5rem;
+}
 
 .events-page {
   padding: 2.5rem;
