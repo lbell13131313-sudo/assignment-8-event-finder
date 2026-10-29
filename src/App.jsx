@@ -5,6 +5,8 @@ import EventsList from './pages/EventsList';
 import EventDetail from './pages/EventDetail';
 import './App.css';
 
+// comment so my .env will save
+
 function App() {
   return (
     <BrowserRouter>
