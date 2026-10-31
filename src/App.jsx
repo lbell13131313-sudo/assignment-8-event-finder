@@ -5,8 +5,6 @@ import EventsList from './pages/EventsList';
 import EventDetail from './pages/EventDetail';
 import './App.css';
 
-//test
-
 function App() {
   return (
     <BrowserRouter>

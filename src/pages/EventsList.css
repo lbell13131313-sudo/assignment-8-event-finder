@@ -1,21 +1,46 @@
 .events-container {
   display: flex;
   gap: 2.5rem;
+  flex-direction: column;
 }
 
 .sidebar {
-  width: 20.5%;
   flex-shrink: 0;
+  width: 100%;
 }
 
 .events-grid {
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 1.876rem;
 }
 
-/* above are the css I have edited in part 5 */
+@media (min-width: 768px) {
+  .events-container {
+    flex-direction: row;
+  }
+  
+  .sidebar {
+    width: 30.5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .events-container {
+    flex-direction: row;
+  }
+  
+  .sidebar {
+    width: 20.5%;
+  }
+
+  .events-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* above are the css I have edited in part 5 through to part 7 */
 
 h2 {
   font-size: 1.5rem;
